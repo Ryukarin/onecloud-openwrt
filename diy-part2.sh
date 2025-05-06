@@ -16,7 +16,7 @@ sed -i 's/192.168.1.1/192.168.1.254/g' package/base-files/files/bin/config_gener
 # Modify default theme
 #sed -i 's/luci-theme-bootstrap/luci-theme-argon/g' feeds/luci/collections/luci/Makefile
 
-# Modify hostname
+# Modify hostname 
 sed -i 's/OpenWrt/OneCloud/g' package/base-files/files/bin/config_generate
 
 # 替换终端为bash
